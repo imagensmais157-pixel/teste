@@ -1,0 +1,365 @@
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápios Profissionais - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Poppins', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .card-hover:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+        .mockup-phone { background: #333; border-radius: 25px; padding: 8px; }
+        .mockup-screen { border-radius: 20px; overflow: hidden; }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-top-4{top:-1rem}.left-1\/2{left:50%}.top-0{top:0px}.bottom-5{bottom:1.25rem}.right-5{right:1.25rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-1{margin-left:0.25rem}.mr-2{margin-right:0.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-16{height:4rem}.h-80{height:20rem}.h-full{height:100%}.w-16{width:4rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-5xl{max-width:64rem}.max-w-7xl{max-width:80rem}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-8{gap:2rem}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.border-2{border-width:2px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-purple-500{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-500{--tw-bg-opacity:1;background-color:rgb(168 85 247 / var(--tw-bg-opacity, 1))}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195 / var(--tw-bg-opacity, 1))}.object-cover{object-fit:cover}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pt-20{padding-top:5rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-purple-400{--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-purple-500:hover{--tw-border-opacity:1;border-color:rgb(168 85 247 / var(--tw-border-opacity, 1))}.hover\:bg-green-600:hover{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-700:hover{--tw-bg-opacity:1;background-color:rgb(126 34 206 / var(--tw-bg-opacity, 1))}.hover\:text-purple-600:hover{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.hover\:text-purple-800:hover{--tw-text-opacity:1;color:rgb(107 33 168 / var(--tw-text-opacity, 1))}@media (min-width: 640px){.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}}@media (min-width: 768px){.md\:flex{display:flex}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.md\:space-y-0 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0px * var(--tw-space-y-reverse))}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:px-8{padding-left:2rem;padding-right:2rem}}</style></head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <i class="fas fa-utensils text-2xl text-purple-600 mr-2"></i>
+                    <span class="text-xl font-bold text-gray-800">CardápiosPro</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-purple-600 transition">Início</a>
+                    <a href="#portfolio" class="text-gray-700 hover:text-purple-600 transition">Portfólio</a>
+                    <a href="#beneficios" class="text-gray-700 hover:text-purple-600 transition">Benefícios</a>
+                    <a href="#precos" class="text-gray-700 hover:text-purple-600 transition">Preços</a>
+                    <a href="#contato" class="text-gray-700 hover:text-purple-600 transition">Contato</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6">
+                    Cardápios Profissionais<br>
+                    <span class="text-yellow-300">que Vendem Mais</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Crio cardápios digitais, impressos e com QR Code para restaurantes, lanchonetes e bares.
+                </p>
+                <a href="https://wa.link/hpo3wj" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-lg transition transform hover:scale-105 inline-block">
+   <i class="fab fa-whatsapp mr-2"></i>
+   Fale comigo no WhatsApp
+</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Meus Trabalhos</h2>
+                <p class="text-xl text-gray-600">Confira alguns exemplos de cardápios que já criei</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Pizzaria -->
+                <div class="card-hover bg-white rounded-lg shadow-lg overflow-hidden" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/vZ3Tr7Zf/Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-1.jpg" border="0" alt="Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-1"></a>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Cardápio Premium de Açaí</h3>
+                        <p class="text-gray-600 mb-4">Beleza visual que valoriza seus produtos e atrai mais clientes.</p>
+                        <a href="https://wa.link/hpo3wj" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">
+   Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+</a>
+
+                    </div>
+                </div>
+
+                <!-- Hamburgueria -->
+                <div class="card-hover bg-white rounded-lg shadow-lg overflow-hidden" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="h-80 overflow-hidden">
+                        <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/0yFR1rth/Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-1.jpg" border="0" alt="Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-1"></a>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Marmitas que vendem mais</h3>
+                        <p class="text-gray-600 mb-4">Cardápio de marmitas feito para encantar e fidelizar clientes.</p>
+                        <a href="https://wa.link/hpo3wj" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">
+   Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+</a>
+                    </div>
+                </div>
+
+                <!-- Sushi -->
+                <div class="card-hover bg-white rounded-lg shadow-lg overflow-hidden" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="h-80 overflow-hidden">
+                        <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/X7NrDNDw/Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-2.jpg" border="0" alt="Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-2"></a>
+
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Cardápio para Pizzaria</h3>
+                        <p class="text-gray-600 mb-4">Cardápio profissional para valorizar sabores e aumentar seus pedidos.</p>
+                        <a href="https://wa.link/hpo3wj" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">
+   Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+</a>
+                    </div>
+                </div>
+
+                <!-- Bar -->
+                <div class="card-hover bg-white rounded-lg shadow-lg overflow-hidden" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="h-80 overflow-hidden">
+                        <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/XYG1dW3b/Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-3.jpg" border="0" alt="Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-3"></a>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Cardápio Gourmet de Hambúrgueres</h3>
+                        <p class="text-gray-600 mb-4">Cardápio de hambúrgueres feito para abrir o apetite e fidelizar clientes</p>
+                        <a href="https://wa.link/hpo3wj" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">
+   Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+</a>
+                    </div>
+                </div>
+
+                <!-- Café -->
+                <div class="card-hover bg-white rounded-lg shadow-lg overflow-hidden" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="h-80 overflow-hidden">
+                        <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/VkkrVsvx/Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-4.jpg" border="0" alt="Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-4"></a>
+
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Cardápio de Sushi Essencial</h3>
+                        <p class="text-gray-600 mb-4">Cardápio visualmente irresistível para conquistar novos clientes</p>
+                        <a href="https://wa.link/hpo3wj" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">
+   Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+</a>
+                    </div>
+                </div>
+
+                <!-- Pastelaria -->
+                <div class="card-hover bg-white rounded-lg shadow-lg overflow-hidden" style="opacity: 1; transform: translateY(0px); transition: opacity 0.6s, transform 0.6s;">
+                    <div class="h-80 overflow-hidden">
+                        <a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/m2tWX0Rd/Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-5.jpg" border="0" alt="Card-pio-de-a-a-para-story-simples-roxo-355-x-320-px-5"></a>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Cardápio de Cafeteria que desperta sentidos</h3>
+                        <p class="text-gray-600 mb-4">Apresentação sofisticada para encantar clientes a cada página</p>
+                        <a href="https://wa.link/hpo3wj" target="_blank" class="text-purple-600 hover:text-purple-800 font-semibold">
+   Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefícios Section -->
+    <section id="beneficios" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Por que escolher meus cardápios?</h2>
+                <p class="text-xl text-gray-600">Soluções completas para o seu negócio</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center bg-white p-8 rounded-lg shadow-lg">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-mobile-alt text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Versão Digital</h3>
+                    <p class="text-gray-600">PDF otimizado para WhatsApp e redes sociais. Fácil de compartilhar!</p>
+                </div>
+                
+                <div class="text-center bg-white p-8 rounded-lg shadow-lg">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-qrcode text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">QR Code</h3>
+                    <p class="text-gray-600">QR Code personalizado para mesas. Prático, moderno e sem contato!</p>
+                </div>
+                
+                <div class="text-center bg-white p-8 rounded-lg shadow-lg">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-print text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Pronto para Impressão</h3>
+                    <p class="text-gray-600">Arquivo em alta resolução, pronto para impressão em qualquer gráfica.</p>
+                </div>
+                
+                <div class="text-center bg-white p-8 rounded-lg shadow-lg">
+                    <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-chart-line text-2xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Design Estratégico</h3>
+                    <p class="text-gray-600">Layout que destaca os pratos que mais lucram e aumenta suas vendas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preços Section -->
+    <section id="precos" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Pacotes e Preços</h2>
+                <p class="text-xl text-gray-600">Escolha o pacote ideal para o seu negócio</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Pacote Inicial -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-8 text-center hover:border-purple-500 transition">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Pacote Inicial</h3>
+                    <div class="text-4xl font-bold text-purple-600 mb-6">R$ 100</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Cardápio digital (PDF)</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> QR Code personalizado</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Até 2 páginas (ex.: bebidas e comidas)</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Entrega rápida (2 a 3 dias)</li>
+                    </ul>
+                    <a href="https://wa.link/hpo3wj" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition block text-center">
+   Escolher Pacote
+</a>
+                </div>
+                
+                <!-- Pacote Completo -->
+                <div class="bg-white border-2 border-purple-500 rounded-lg p-8 text-center relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-purple-500 text-white px-4 py-1 rounded-full text-sm font-bold">
+                        MAIS POPULAR
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Pacote Completo</h3>
+                    <div class="text-4xl font-bold text-purple-600 mb-6">R$ 200</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Tudo do pacote inicial</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Arquivo para impressão</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Arquivo pronto para gráfica</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Design personalizado</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Até 5 páginas</li>
+                    </ul>
+                    <a href="https://wa.link/hpo3wj" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition block text-center">
+   Escolher Pacote
+</a>
+                </div>
+                
+                <!-- Pacote Premium -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-8 text-center hover:border-purple-500 transition">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Pacote Premium</h3>
+                    <div class="text-4xl font-bold text-purple-600 mb-6">R$ 300</div>
+                    <ul class="text-left space-y-3 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Tudo do pacote completo</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Itens ilimitados</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Múltiplas versões</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i>Cardápio grande (6 a 12 páginas)</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Revisões ilimitadas</li>
+                    </ul>
+                    <a href="https://wa.link/hpo3wj" target="_blank" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg transition block text-center">
+   Escolher Pacote
+</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-20 bg-gray-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8">Vamos conversar?</h2>
+            <p class="text-xl text-gray-600 mb-8">Entre em contato e vamos criar o cardápio perfeito para o seu negócio!</p>
+            
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
+                <a href="https://wa.link/hpo3wj" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full text-lg transition transform hover:scale-105 inline-flex items-center">
+   <i class="fab fa-whatsapp mr-2"></i>
+   WhatsApp: (55) 99664-9651
+</a>
+
+
+                
+                <div class="flex items-center text-gray-600">
+                    <i class="fas fa-envelope mr-2"></i>
+                    <span>imagensmais157@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center mb-4">
+                <i class="fas fa-utensils text-2xl text-purple-400 mr-2"></i>
+                <span class="text-xl font-bold">CardápiosPro</span>
+            </div>
+            <p class="text-gray-400">© 2024 CardápiosPro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.link/hpo3wj" target="_blank" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition transform hover:scale-110 fixed bottom-5 right-5 z-50">
+   <i class="fab fa-whatsapp text-2xl"></i>
+</a>
+
+    </div>
+
+    <script>
+        function abrirWhatsApp(pacote = '') {
+            let mensagem = 'Olá! Tenho interesse em criar um cardápio profissional para meu negócio.';
+            
+            if (pacote === 'inicial') {
+                mensagem += ' Gostaria de saber mais sobre o Pacote Inicial (R$ 100).';
+            } else if (pacote === 'completo') {
+                mensagem += ' Tenho interesse no Pacote Completo (R$ 200).';
+            } else if (pacote === 'premium') {
+                mensagem += ' Gostaria de contratar o Pacote Premium (R$ 300).';
+            }
+            
+            const numeroWhatsApp = '5511999999999'; // Substitua pelo seu número
+            const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+            window.open(url, '_blank');
+        }
+
+        function verDetalhes(tipo) {
+            let mensagem = `Olá! Vi o exemplo do cardápio de ${tipo} no seu portfólio e gostei muito! Gostaria de saber mais detalhes sobre como criar algo similar para meu negócio.`;
+            
+            const numeroWhatsApp = '5511999999999'; // Substitua pelo seu número
+            const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+            window.open(url, '_blank');
+        }
+
+        // Smooth scroll para navegação
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animação de entrada dos cards
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.card-hover').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'975f5ffb00f2fa0a',t:'MTc1NjMzNzYxNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+</body></html>
